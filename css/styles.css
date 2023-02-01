@@ -46,7 +46,7 @@ body {
   overflow-x: hidden;
 }
 
-.btn.btn-rounded{
+.btn.btn-rounded {
   border-radius: var(--border-radius-rounded);
 }
 
@@ -63,10 +63,11 @@ input::placeholder {
   margin: 0 auto;
 }
 
-.container .logo {
-  color: var(--color-primary);
-  font-size: 1.6rem;
-  font-weight: bolder;
+.container .logo .logo-img {
+  width: 160px;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
 }
 
 .profile-picture {
